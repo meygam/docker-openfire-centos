@@ -1,4 +1,4 @@
-FROM    centos:centos7
+FROM    centos:centos6
 MAINTAINER Saravana Kumar Periyasamy <saravanakumar.periyasamy@gmail.com>
 
 RUN     yum install -y initscripts
