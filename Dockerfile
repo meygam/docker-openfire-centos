@@ -7,6 +7,6 @@ RUN     wget http://www.igniterealtime.org/downloadServlet?filename=openfire/ope
 RUN     rpm -ivh openfire-3.9.3-1.i386.rpm
 RUN     yum install -y libldb.i686
 EXPOSE  9090
-CMD     service openfire start
+CMD     ["service openfire start"]
 
 
